@@ -22,7 +22,7 @@ public class FileData {
      * The unique identifier for the row
      */
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue
     private UUID id;
 
     /**
